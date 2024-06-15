@@ -1,0 +1,243 @@
+body{
+    padding: 0;
+    margin: 0;
+    /* background: rgb(241, 239, 239); */
+    font-family: sans-serif;
+    display: flex;
+    
+}
+
+.main{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100vh;
+
+}
+.main .leftside{
+    position: sticky;
+    top: 0;
+    height: 100vh;
+    width: 320px;
+    background: #F5F5F5;
+    flex-direction: column;
+}
+.leftside .title{
+    display: flex;
+    width: 300px;
+    cursor: pointer;
+    align-items: center;
+    padding: 5px 12px;
+    text-decoration: none;
+
+}
+.leftside .title img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.titlediv{
+    display: flex;
+    flex-direction: column;
+    margin-left: 14px;
+}
+.titlediv .name{
+    color: rgb(37, 36, 36);
+    font-weight: 800;
+    font-family: sans-serif;
+
+}
+.titlediv .work{
+    color: rgb(78, 74, 74);
+    font-weight: 600;
+    font-family: sans-serif;
+
+}
+.leftside .toplinks{
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    /* background: blue; */
+    padding: 10px 12px;
+    /* margin-right: 10PX; */
+
+}
+.leftside .toplinkss{
+    display: flex;
+    flex-direction: column;
+    width: 295px;
+    /* background: blue; */
+    padding: 3px 12px;
+    /* margin-right: 10PX; */
+
+}
+.toplinkone{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    /* justify-content: space-around; */
+    border-radius: 7px;
+    padding: 0 10%;
+    width: 230PX;
+    background-color: white;
+    color: rgb(56, 54, 54);
+    text-decoration: none;
+    margin-top: 10PX;
+
+}
+.toplinkone:hover{
+    background: whitesmoke;
+
+}
+.toplinkone p{
+    color: rgb(48, 46, 46);
+    margin-left: 20PX;
+    /* font-size: 17PX; */
+    font-weight: 800;
+}
+.resources{
+    padding-left: 10px;
+    font-weight: 600;
+}
+.rightside{
+    margin: 0 auto;
+    display: flex;
+    width: 1576px;
+    overflow-y: auto;
+    /* padding: 26px 12px; */
+}
+.rightside .center{
+    width: 100%;
+}
+.rightside .center .centertwo{
+    
+    display: flex;
+    /* width: 100%; */
+    margin-left:  27%;
+    margin-right:  27%;
+    flex-direction: column;
+    justify-content: center;
+}
+.rightside .center .centertwoo{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.description{
+    font-size: 18px;
+    color: #363434;
+    font-weight: 500;
+}
+.description .undeline{
+    text-decoration: underline;
+    font-weight: 600;
+}
+.latest{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.latest .title2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.latest .title2 p{
+    font-weight: 600;
+    color: #363434;
+}
+.firstgrid{
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+
+}
+.firstgrid a{
+    background: white;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    height: 150px;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px 10px;
+    margin: auto auto;
+    border: 1px solid rgb(184, 180, 180);
+    text-decoration: none;
+}
+.firstgrid a:hover{
+    background: whitesmoke;
+}
+.apptitle{
+    font-weight: 600;
+    color: #363434;
+}
+.appdesc{
+    font-size: 16px;
+    color: #5c5959;
+}
+.apptag {
+    background-color: #eee; /* Add background color to tag */
+    padding: 5px; /* Add padding to tag */
+    display: inline-block; /* Make tag inline-block */
+    margin-top: 5px; /* Add space above tag */
+}
+
+.firstgrid2  {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    /* background: red; */
+    overflow-x: auto;
+    padding: 4px;
+}
+.firstgrid2 a{
+    height: 200px;
+    display: flex;
+    background: white;
+    cursor: pointer;
+    flex-direction: row;
+    border-radius: 5px;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+.firstgrid2img{
+    overflow: hidden;
+    background: #5c5959;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.firstgrid2img img{
+    width: 33%;
+}
+.title33{
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+    align-items: start;
+    padding: 15px;
+    gap: 4px;
+}
+.title33 p{
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title33 i{
+    text-decoration: none;
+    color: rgb(64, 64, 77);
+    
+}
+
+.horizontal-scroll {
+    overflow-x: auto;
+    white-space: nowrap;
+}
